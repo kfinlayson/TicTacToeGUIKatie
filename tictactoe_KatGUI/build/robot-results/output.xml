@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.0 (Jython 2.7.0 on java1.8.0_102)" generated="20170130 20:50:38.414">
+<suite source="C:\Users\Katie\Desktop\tictactoe_KatGUI\src\test\acceptancetest" name="Acceptancetest" id="s1">
+<suite source="C:\Users\Katie\Desktop\tictactoe_KatGUI\src\test\acceptancetest\TicTacToeGUITests.txt" name="TicTacToeGUITests" id="s1-s1">
+<test name="Win Diagonally as X" id="s1-s1-t1">
+<kw name="Start New Game">
+<kw library="SwingLibrary" name="Start Application">
+<doc>Alias for `Launch Application` keyword</doc>
+<arguments>
+<arg>edu.jsu.mcis.TicTacToeGame</arg>
+</arguments>
+<msg level="FAIL" timestamp="20170130 20:50:56.095">edu.jsu.mcis.TicTacToeGame</msg>
+<status endtime="20170130 20:50:56.108" starttime="20170130 20:50:55.958" status="FAIL"></status>
+</kw>
+<status endtime="20170130 20:50:56.116" starttime="20170130 20:50:55.946" status="FAIL"></status>
+</kw>
+<status critical="yes" endtime="20170130 20:50:56.122" starttime="20170130 20:50:55.930" status="FAIL">edu.jsu.mcis.TicTacToeGame</status>
+</test>
+<test name="Win Horizontally as O" id="s1-s1-t2">
+<kw name="Start New Game">
+<kw library="SwingLibrary" name="Start Application">
+<doc>Alias for `Launch Application` keyword</doc>
+<arguments>
+<arg>edu.jsu.mcis.TicTacToeGame</arg>
+</arguments>
+<msg level="FAIL" timestamp="20170130 20:50:56.239">edu.jsu.mcis.TicTacToeGame</msg>
+<status endtime="20170130 20:50:56.251" starttime="20170130 20:50:56.155" status="FAIL"></status>
+</kw>
+<status endtime="20170130 20:50:56.257" starttime="20170130 20:50:56.148" status="FAIL"></status>
+</kw>
+<status critical="yes" endtime="20170130 20:50:56.261" starttime="20170130 20:50:56.135" status="FAIL">edu.jsu.mcis.TicTacToeGame</status>
+</test>
+<test name="Force a Tie" id="s1-s1-t3">
+<kw name="Start New Game">
+<kw library="SwingLibrary" name="Start Application">
+<doc>Alias for `Launch Application` keyword</doc>
+<arguments>
+<arg>edu.jsu.mcis.TicTacToeGame</arg>
+</arguments>
+<msg level="FAIL" timestamp="20170130 20:50:56.334">edu.jsu.mcis.TicTacToeGame</msg>
+<status endtime="20170130 20:50:56.340" starttime="20170130 20:50:56.286" status="FAIL"></status>
+</kw>
+<status endtime="20170130 20:50:56.345" starttime="20170130 20:50:56.279" status="FAIL"></status>
+</kw>
+<status critical="yes" endtime="20170130 20:50:56.351" starttime="20170130 20:50:56.270" status="FAIL">edu.jsu.mcis.TicTacToeGame</status>
+</test>
+<status endtime="20170130 20:50:56.370" starttime="20170130 20:50:38.694" status="FAIL"></status>
+</suite>
+<status endtime="20170130 20:50:56.406" starttime="20170130 20:50:38.427" status="FAIL"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="3">Critical Tests</stat>
+<stat pass="0" fail="3">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="3" name="Acceptancetest" id="s1">Acceptancetest</stat>
+<stat pass="0" fail="3" name="TicTacToeGUITests" id="s1-s1">Acceptancetest.TicTacToeGUITests</stat>
+</suite>
+</statistics>
+<errors>
+<msg level="WARN" timestamp="20170130 20:50:38.307">Error in file 'C:\Users\Katie\Desktop\tictactoe_KatGUI\src\test\acceptancetest\TicTacToeGUITests.txt': Table name 'User Keywords' is deprecated. Please use 'Keywords' instead.</msg>
+</errors>
+</robot>
